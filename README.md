@@ -27,7 +27,14 @@ I focus on building **structured, responsive, and user-friendly web applications
 
 ## 📂 Project Structure
 
-Portfolio/ │── certificates/ │   ├── BTech_Marksheets/ │   └── Other_Certificates/ │ │── images/ │   └── Portfolio_Images/ │ │── css/ │   └── styles.css │ │── js/ │   └── scripts.js │ │── index.html │── Portfolio_Screenshot.png
+Portfolio/
+├── certificates/
+│   └── BTech_Marksheets/
+├── images/
+├── styles.css
+├── scripts.js
+├── index.html
+└── Portfolio_Screenshot.png
 
 ## 🚀 Live Links
 - **GitHub Profile:** https://github.com/Ashish943164  
