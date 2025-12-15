@@ -1,21 +1,22 @@
 
+---
+
 # 🌐 Personal Portfolio Website
-[Ashish Kumar]
 
 ## 👋 Introduction
 Welcome to my personal portfolio repository.  
-This project represents my **professional profile**, showcasing my **skills, education, and projects** in a clean and modern design.
+This project represents my **professional profile**, showcasing my **skills, education, and projects** through a clean and modern web interface.
 
 ## 👨‍💻 About Me
 I am **Ashish Kumar**, a passionate and self-motivated learner with a strong interest in  
 **Data Science, Web Development, Programming, and Technology**.  
-I focus on building structured, responsive, and user-friendly web applications while continuously improving my technical expertise.
+I focus on building **structured, responsive, and user-friendly web applications** while continuously improving my technical expertise.
 
 ## ✨ Key Highlights
-- Modern and responsive portfolio design
+- Modern and fully responsive portfolio design
 - Professional introduction and profile section
 - Education and certifications overview
-- Projects showcase with details
+- Projects showcase with detailed descriptions
 - Skills representation
 - Contact section for easy communication
 
@@ -26,38 +27,32 @@ I focus on building structured, responsive, and user-friendly web applications w
 
 ## 📂 Project Structure
 
-Portfolio/
-│── certificates/
-	-BtechMarksheet/
-	-And All Certificates
-│──Images/ 
-	-And All Certificates 
-│── styles.css/      	 # Stylesheets 
-│── JavaScripts.js/      # JavaScript files 
-│── index.html  	 # Main HTML file
-│── Portfolio-ScreenShort.png
+Portfolio/ │── certificates/ │   ├── BTech_Marksheets/ │   └── Other_Certificates/ │ │── images/ │   └── Portfolio_Images/ │ │── css/ │   └── styles.css │ │── js/ │   └── scripts.js │ │── index.html │── Portfolio_Screenshot.png
 
 ## 🚀 Live Links
-
 - **GitHub Profile:** https://github.com/Ashish943164  
 - **Portfolio Repository:** https://github.com/Ashish943164/Portfolio  
 - **Portfolio Website:** https://ashish943164.github.io/Portfolio/
 
 ## 🧩 How to Run Locally
-1. Open the project folder
-2. Run index.html in any modern web browser
+1. Clone or download the repository
+2. Open the project folder
+3. Open `index.html` in any modern web browser
 
-##🔮 Future Improvements
-Backend integration for contact form
-Improved animations and UI effects
-SEO and performance optimization
+## 🔮 Future Improvements
+- Backend integration for contact form  
+- Enhanced animations and UI effects  
+- SEO and performance optimization  
 
+## 📬 Contact Information
+**Ashish Kumar**  
+📧 Email: ashishkumarmjl011@gmail.com  
+💻 GitHub: https://github.com/Ashish943164  
+🌐 Portfolio: https://ashish943164.github.io/Portfolio/
 
-##📬 Contact Information
+---
 
-Ashish Kumar
-📧 Email: ashishkumarmjl011@gmail.com
-💻 GitHub: https://github.com/Ashish943164
-🌐 Portfolio: https://Ashish943164.github.io/
+⭐ If you find this project useful, please consider giving it a star.
+
 
 ---
