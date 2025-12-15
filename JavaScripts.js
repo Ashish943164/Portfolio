@@ -94,6 +94,70 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+
+
+
+
+
+
+
+
+// Certificate Modal Functions
+function showCertificates() {
+    document.getElementById('certificateModal').style.display = 'flex';
+}
+
+function hideCertificates() {
+    document.getElementById('certificateModal').style.display = 'none';
+}
+
+// Close modal when clicking outside or pressing Escape
+document.addEventListener('DOMContentLoaded', function() {
+    const modal = document.getElementById('certificateModal');
+    
+    // Close modal when clicking outside
+    window.addEventListener('click', function(event) {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+    
+    // Close modal with Escape key
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape' && modal.style.display === 'flex') {
+            modal.style.display = 'none';
+        }
+    });
+    
+    // Read More functionality for B.Tech item
+    const btechReadMoreBtn = document.querySelector('.education-item[data-category="education"] .read-more');
+    if (btechReadMoreBtn) {
+        btechReadMoreBtn.addEventListener('click', function() {
+            const details = this.closest('.education-item').querySelector('.details');
+            details.classList.toggle('active');
+            
+            if (details.classList.contains('active')) {
+                this.textContent = 'Read Less';
+            } else {
+                this.textContent = 'Read More';
+            }
+        });
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Skills Section JavaScript
 document.addEventListener('DOMContentLoaded', function() {
     const slider = document.getElementById('skillsSlider');
@@ -318,4 +382,5 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
+
 });
