@@ -644,6 +644,131 @@
             color: var(--gray);
         }
 
+
+
+
+
+
+ /* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+    animation: modalSlideIn 0.3s ease-out;
+}
+
+[data-theme="dark"] .modal-content {
+    background: var(--dark-card);
+    color: var(--dark);
+}
+
+.close-modal {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+    transition: color 0.3s;
+}
+
+[data-theme="dark"] .close-modal {
+    color: var(--gray);
+}
+
+.close-modal:hover {
+    color: var(--primary);
+}
+
+.modal-content h3 {
+    margin-bottom: 20px;
+    color: var(--dark);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.3rem;
+}
+
+.modal-certs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cert-link {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    background: #f8f9fa;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #333;
+    border-left: 4px solid var(--education-color);
+    transition: all 0.3s;
+}
+
+[data-theme="dark"] .cert-link {
+    background: var(--dark-bg);
+    color: var(--gray);
+    border-left-color: var(--education-color);
+}
+
+.cert-link:hover {
+    background: #e9ecef;
+    transform: translateX(5px);
+}
+
+[data-theme="dark"] .cert-link:hover {
+    background: var(--dark-card);
+}
+
+.cert-icon {
+    font-size: 20px;
+    margin-right: 12px;
+    color: var(--education-color);
+}
+
+.cert-text {
+    flex-grow: 1;
+    font-weight: 500;
+}
+
+@keyframes modalSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+        }
+
+
+
+
+
+
+
+
+
+
         /* Project Section - Mobile Optimized */
         .projects-grid {
             display: grid;
@@ -1806,4 +1931,5 @@
             .about-content {
                 max-width: 800px;
             }
+
         }
