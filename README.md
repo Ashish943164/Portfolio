@@ -38,6 +38,7 @@ Portfolio/
 │── Portfolio-ScreenShort.png
 
 ## 🚀 Live Links
+
 - **GitHub Profile:** https://github.com/Ashish943164  
 - **Portfolio Repository:** https://github.com/Ashish943164/Portfolio  
 - **Portfolio Website:** https://ashish943164.github.io/Portfolio/
@@ -53,6 +54,7 @@ SEO and performance optimization
 
 
 ##📬 Contact Information
+
 Ashish Kumar
 📧 Email: ashishkumarmjl011@gmail.com
 💻 GitHub: https://github.com/Ashish943164
