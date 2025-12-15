@@ -46,13 +46,13 @@ Portfolio/
 1. Open the project folder
 2. Run index.html in any modern web browser
 
-🔮 Future Improvements
+##🔮 Future Improvements
 Backend integration for contact form
 Improved animations and UI effects
 SEO and performance optimization
 
 
-📬 Contact Information
+##📬 Contact Information
 Ashish Kumar
 📧 Email: ashishkumarmjl011@gmail.com
 💻 GitHub: https://github.com/Ashish943164
